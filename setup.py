@@ -8,8 +8,8 @@ setup(
     description='Export python data structures to a few file formats.',
     url='https://github.com/stargazer/exporter/',
     license='WTFPL',
-    version=0.2,
-    install_requires=('tablib',),
+    version=0.3,
+    install_requires=('tablib','openpyxl'),
     zip_safe=False,
     classifiers=(
         'Programming Language :: Python',
